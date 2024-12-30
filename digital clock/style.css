@@ -1,0 +1,65 @@
+* {
+    margin: none;
+    padding: 0;
+}
+
+/* @font-face {
+    font-family: "FX-LED";
+    src: url("fonts/FX_LED.ttf");
+}
+
+@font-face {
+    font-family: "Hack";
+    src: url("fonts/Hack-Bold.ttf");
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.time {
+    display: flex;
+    padding-left: 7vh;
+    align-items: center;
+    font-size: 6.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family: "FX_LED";*/
+    font-weight: bold;
+}
+
+.colon .dot {
+    padding-bottom: 2rem;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    padding: 1rem;
+    border: 0.4rem solid #2d2d2d;
+    border-radius: 2rem;
+    width: 35rem;
+    height: 10rem;
+    box-shadow: 10px 7px 7px rgb(70, 69, 69);
+}
+
+.days {
+    color: #2d2d2d;
+    padding-top: 0.6rem;
+    padding-left: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    /*font-family: "Hack";*/
+}
+
+.active {
+    color: whitesmoke;
+}
+
+.invisible {
+    visibility: hidden;
+}
