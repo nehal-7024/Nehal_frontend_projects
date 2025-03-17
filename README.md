@@ -20,7 +20,7 @@ Welcome to my Frontend Development Portfolio! 🚀 This repository showcases my 
   - Fully responsive layout.
   - Dynamic hover effects and navigation.
   - Integrated with real-time search bar functionalities.
-- **Tech Used**: HTML, CSS, JavaScript.
+- **Tech Used**: HTML, CSS.
   
 ---
 
